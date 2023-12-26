@@ -33,7 +33,7 @@ import jmetal.util.JMException;
 
 import java.util.HashMap;
 
-import src.classes.MyProblem1;
+import src.classes.MonoObjective;
 
 /**
  * This class runs a single-objective genetic algorithm (GA). The GA can be 
@@ -56,7 +56,7 @@ public class GA_main {
     // int bits = 512 ;
     // problem = new OneMax("Binary", bits);
 
-    problem = new MyProblem1("Real", 30);
+    problem = new MonoObjective("Real", 30);
  
     //problem = new Sphere("Real", 10) ;
     //problem = new Easom("Real") ;
