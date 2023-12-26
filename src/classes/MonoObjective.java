@@ -12,9 +12,9 @@ import jmetal.core.Solution;
 
 
 
-public class MyProblem1 extends Problem {
+public class MonoObjective extends Problem {
 
-    public MyProblem1(String solution_type, Integer number_of_variables){
+    public MonoObjective(String solution_type, Integer number_of_variables){
 
         // Check the solution type
         if (solution_type.compareTo("Real") == 0){
@@ -27,7 +27,7 @@ public class MyProblem1 extends Problem {
 
         numberOfVariables_ = number_of_variables;
         numberOfConstraints_ = 0;
-        problemName_ = "MyProblem1";
+        problemName_ = "MonoObjective";
         numberOfObjectives_ = 1;
 
         // Decision variables limits

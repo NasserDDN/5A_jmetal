@@ -102,7 +102,7 @@ public class NSGAII_main {
       // problem = new Water("Real");
       // problem = new ZDT3("ArrayReal", 30);
       problem = new SensorDeployment("Real", 20);
-      // problem = new MyProblem2("Real", 30);
+      // problem = new MonoObjective("Real", 30);
       //problem = new ConstrEx("Real");
       // problem = new DTLZ1("Real");
       //problem = new OKA2("Real") ;
